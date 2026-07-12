@@ -8,7 +8,8 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "demo:collector": "ts-node src/manualCollectorDemo.ts"
   },
   "repository": {
     "type": "git",

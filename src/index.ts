@@ -15,4 +15,10 @@ if (require.main === module) {
   });
 }
 
+export * from './collector/types';
+export * from './collector/collector';
+export * from './collector/rateLimiter';
+export * from './collector/backoff';
+export * from './collector/inMemoryPriceSink';
+
 export default app; // export for testing
